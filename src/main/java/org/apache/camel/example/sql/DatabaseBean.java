@@ -52,8 +52,8 @@ public class DatabaseBean {
     }
 
     public void create() throws Exception {
-        LOG.info(url);
-        System.out.println(url);
+        LOG.info("===============================================" + url);
+        System.out.println("===============================================" + url);
         JdbcTemplate jdbc = new JdbcTemplate(dataSource);
 
         String sql = "create table orders (\n"
