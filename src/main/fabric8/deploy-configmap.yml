@@ -6,10 +6,10 @@ metadata:
 data:
   mysqlparam.properties: |
     # MYSQL_SERVICE_NAME=mysql.yang.svc:3306
-    MYSQL_SERVICE_NAME=mysql
-    MYSQL_SERVICE_DATABASE=sampledb
-    MYSQL_SERVICE_USERNAME=kalix
-    MYSQL_SERVICE_PASSWORD=kalix
+    serverName=mysql
+    database=sampledb
+    username=kalix
+    password=kalix
     # Override the configuration properties here
     # pool.size.core: 1
     # pool.size.max: 16
