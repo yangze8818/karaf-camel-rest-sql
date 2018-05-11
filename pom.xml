@@ -30,7 +30,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- configure the versions you want to use here -->
-    <camel.version>2.19.1</camel.version>
+    <camel.version>2.21.1</camel.version>
     <karaf.version>4.2.0</karaf.version>
     <fabric8.version>3.0.11</fabric8.version>
     <spring.features.version>3.0.4</spring.features.version>
