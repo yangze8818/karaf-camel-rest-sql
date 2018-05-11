@@ -54,6 +54,7 @@ public class DatabaseBean {
     public void create() throws Exception {
         LOG.info("===============================================" + url);
         System.out.println("===============================================" + url);
+        /**
         JdbcTemplate jdbc = new JdbcTemplate(dataSource);
 
         String sql = "create table orders (\n"
@@ -75,9 +76,11 @@ public class DatabaseBean {
         jdbc.execute(sql);
 
         LOG.info("... created table orders");
+         **/
     }
 
     public void destroy() throws Exception {
+        /**
         JdbcTemplate jdbc = new JdbcTemplate(dataSource);
 
         try {
@@ -85,5 +88,6 @@ public class DatabaseBean {
         } catch (Throwable e) {
             // ignore
         }
+         **/
     }
 }
