@@ -29,6 +29,7 @@ public class DatabaseBean {
 
     private static final Logger LOG = LoggerFactory.getLogger(DatabaseBean.class);
     private DataSource dataSource;
+    private String url;
 
     public DataSource getDataSource() {
         return dataSource;
@@ -38,7 +39,21 @@ public class DatabaseBean {
         this.dataSource = dataSource;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public static Logger getLOG() {
+        return LOG;
+    }
+
     public void create() throws Exception {
+        LOG.info(url);
+        System.out.println(url);
         JdbcTemplate jdbc = new JdbcTemplate(dataSource);
 
         String sql = "create table orders (\n"

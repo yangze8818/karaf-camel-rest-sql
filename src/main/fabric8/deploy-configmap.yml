@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  # Must match the 'spring.application.name' property of the application
+  name: mysqlparam-config
+data:
+  mysqlparam.properties: |
+    # MYSQL_SERVICE_NAME=mysql.yang.svc:3306
+    MYSQL_SERVICE_NAME=mysql
+    MYSQL_SERVICE_DATABASE=sampledb
+    MYSQL_SERVICE_USERNAME=kalix
+    MYSQL_SERVICE_PASSWORD=kalix
+    # Override the configuration properties here
+    # pool.size.core: 1
+    # pool.size.max: 16
