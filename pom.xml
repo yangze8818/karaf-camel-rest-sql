@@ -31,13 +31,13 @@
 
     <!-- configure the versions you want to use here -->
     <camel.version>2.19.1</camel.version>
-    <karaf.version>4.0.8</karaf.version>
-    <fabric8.version>2.3.2</fabric8.version>
+    <karaf.version>4.2.0</karaf.version>
+    <fabric8.version>3.0.11</fabric8.version>
     <spring.features.version>3.0.4</spring.features.version>
     <mysql.version>5.1.26</mysql.version>
 
     <!-- Maven plugin versions -->
-    <fabric8.maven.plugin.version>3.5.17</fabric8.maven.plugin.version>
+    <fabric8.maven.plugin.version>3.5.38</fabric8.maven.plugin.version>
     <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
     <maven-bundle-plugin.version>2.3.7</maven-bundle-plugin.version>
