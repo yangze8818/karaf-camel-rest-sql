@@ -57,7 +57,7 @@
   <bean id="initDatabase" class="org.apache.camel.example.sql.DatabaseBean"
         init-method="create" destroy-method="destroy">
     <property name="url" value="jdbc:mysql://${k8s:map:mysqlparam-config/MYSQL_SERVICE_NAME}/${k8s:map:mysqlparam-config/MYSQL_SERVICE_DATABASE}"/>
-    <property name="dataSource" ref="dataSource"/>
+    <!--<property name="dataSource" ref="dataSource"/>-->
   </bean>
 
   <bean id="initShow" class="com.yz.var.VarServiceImpl" >

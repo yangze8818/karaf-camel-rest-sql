@@ -28,9 +28,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public class DatabaseBean {
 
     private static final Logger LOG = LoggerFactory.getLogger(DatabaseBean.class);
-    private DataSource dataSource;
+//    private DataSource dataSource;
     private String url;
-
+/**
     public DataSource getDataSource() {
         return dataSource;
     }
@@ -38,7 +38,7 @@ public class DatabaseBean {
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;
     }
-
+**/
     public String getUrl() {
         return url;
     }
